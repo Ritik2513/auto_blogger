@@ -1,5 +1,5 @@
 const { Deepgram } = require("@deepgram/sdk");
-const deepgram = new Deepgram("b9f5586026e57cb72031058c00333941b2ff54e8");
+const deepgram = new Deepgram("08951a2526ddbed851ca0e65fd46c55f0c631a07");
 const fs = require("fs");
 let audioSource = {
   stream: fs.createReadStream("./static/uploads/firebase.mp4"),
